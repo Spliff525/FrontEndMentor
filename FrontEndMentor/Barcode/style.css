@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-size:15px;
+     
+}
+
+
+p{ color:hsl(220, 15%, 55%) }
+
+
+
+body{
+background-color:
+hsl(212, 45%, 89%);
+text-align: center;
+}
+
+.code{
+    padding: 0.2rem;
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 19px;
+}
+
+
+
+.coat{
+    background-color: white;
+    height:400px;
+    width:275px;
+   margin-left: auto;
+margin-right: auto;
+border: 1px solid white;
+border-radius: 20px;
+margin-top: 100px;
+text-align: center;
+padding: 0.5rem;
+
+  
+}
+
+
+
+@media screen and (max-width: 375px) 
+ {
+    
+    p{ color:hsl(220, 15%, 55%) }
+
+    
+
+
+
+}

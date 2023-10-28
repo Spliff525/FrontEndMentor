@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <section  >
+        <nav>
+            <h1 class="snik">sneakers</h1>
+            <ul class="Menu">
+<li>
+    <a class="hov" href="#Collections">Collections</a>
+
+</li>
+<li>
+    <a class="hov" href="#Men">Men</a>
+
+</li>
+<li>
+    <a class="hov" href="#Women">Women</a>
+
+</li>
+<li>
+    <a class="hov" href="#About">About</a>
+
+</li>
+<li>
+    <a class="hov" href="#Contact">Contact</a>
+
+</li>
+
+
+           </ul>
+         
+<ul class="query">
+
+
+  <li> <img class="down"src="images/icon-cart.svg">  <div class="dropdown"></div></li>
+ 
+
+ 
+ 
+  <li><img class="round" src="images/image-avatar.png"> </li>
+</ul>
+
+           
+              
+            
+            
+            
+            
+        </nav>
+    
+
+
+    </section>  
+<div class="line">
+
+</div>
+<section class="main">
+<div class="container">    
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                            <img  class="size" src="images/image-product-1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                            <img class="size"src="images/image-product-2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                            <img  class="size" src="images/image-product-3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                            <img  class="size" src="images/image-product-4.jpg" />
+                            </div>
+        
+                            
+                            </div>
+                     
+                   
+                        <div thumbsSlider="" class="swiper mySwiper ">
+       
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class=" one" src="images/image-product-1-thumbnail.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img  class=" one" src="images/image-product-2-thumbnail.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img  class=" one" src="images/image-product-3-thumbnail.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img class=" one" src="images/image-product-4-thumbnail.jpg" />
+          </div>
+         
+           </div>
+        </div>
+     
+    
+      
+    </div>
+      
+      
+      
+        
+    
+    
+    
+    <div class="right">
+
+
+
+
+                <h2 class="orange sn">
+                    SNEAKER COMPANY
+                </h2>
+
+                <h3 class="align">
+                    Fall Limited Edition
+                    <br> Sneakers
+                </h3>
+                <br>
+                <br>
+                <p>
+                    These low-profile sneakers are your perfect casual wear companion.<br> Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+                </p>
+
+<br>
+                <p2 class="price">
+                    <strong>$125.00</strong>  <span class="percent">50%</span>
+                </p2>
+                <br>
+                <br>
+                <p3 class="strike">
+                    $250.00
+                </p3>
+<br>
+<br>
+                <div class="count cart">
+                  <div class="add">
+                    <img class="orange"src="images/icon-minus.svg"> 
+                    <p4 class="num"> <strong> &nbsp; &nbsp; 3 &nbsp; &nbsp;</strong>
+                       
+              </p4> <img class="orange" src="images/icon-plus.svg">
+                   
+                </div>  
+                  
+               
+                </div>
+                <div class="box">
+                  <img class="shop" src="images/icon-cart.svg">
+                    
+                  <p5 class="white" > &nbsp; Add to cart </p5>
+                </div>      
+
+            </div> 
+
+</div>
+
+</section>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js">
+    
+
+</script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 18,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
+</html>
